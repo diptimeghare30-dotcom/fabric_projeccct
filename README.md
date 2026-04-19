@@ -30,7 +30,7 @@ Landing → Bronze → Validation → Stage → Silver → Gold
 
 ---
 ## Architecture Diagram
-[Architecture Diagram](architecture_diagram_fab.png)
+![Architecture Diagram](architecture_diagram_fab.png)
 
 
 ## 🛠️ Tech Stack
