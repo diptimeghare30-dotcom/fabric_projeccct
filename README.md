@@ -20,9 +20,6 @@ It is designed to simulate real-world data engineering workflows, including:
 - Bronze → Silver → Gold architecture
 - CI/CD deployment pipelines
 
-> 💡 **Interview One-Liner:**  
-> "Built a metadata-driven scalable data pipeline in Microsoft Fabric using PySpark with validation framework, audit logging, and Bronze-Silver-Gold architecture."
-
 ---
 
 ## 🏗️ Architecture
@@ -43,21 +40,6 @@ Landing → Bronze → Validation → Stage → Silver → Gold
 | Querying | SQL |
 | Pipeline | Fabric Pipelines |
 | CI/CD | Deployment Pipelines |
-
----
-
-## 📁 Project Structure
-
-```
-📦 metadata-driven-data-pipeline
- ┣ 📜 nb_setup_table.py
- ┣ 📜 ingestion_pipeline.py
- ┣ 📜 data_validation.py
- ┣ 📜 stage_processing.py
- ┣ 📜 silver_merge.py
- ┣ 📜 gold_aggregation.py
- ┗ 📜 README.md
-```
 
 ---
 
@@ -205,34 +187,3 @@ Contributions are welcome!
 2. Create a new branch  
 3. Commit your changes  
 4. Open a Pull Request  
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👩‍💻 Author
-
-**Dipti Meghare**  
-Data Engineering Enthusiast | Microsoft Fabric | PySpark  
-
----
-
-## ⭐ Support
-
-If you found this project helpful:
-
-- ⭐ Star this repository  
-- 🍴 Fork it  
-- 📢 Share on LinkedIn  
-
----
-
-## 🔥 Final Tip (For Interviews)
-
-When explaining this project:
-
-> "I designed a metadata-driven ingestion and validation pipeline in Microsoft Fabric using PySpark. It handles dynamic ingestion, rule-based data quality checks, bad record isolation, and incremental MERGE into Silver with Gold-level aggregations, along with CI/CD deployment."
